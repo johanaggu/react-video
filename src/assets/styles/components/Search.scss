@@ -13,17 +13,4 @@
     font-size: 25px;
   }
 
-  .input {
-    background-color: $main-color;
-    border: 2px solid $font-color;
-    border-radius: 25px;
-    color: $font-color;
-    font-family: $theme-font;
-    font-size: 16px;
-    height: 50px;
-    margin-bottom: 20px;
-    outline: none;
-    padding: 0px 20px;
-    width: 70%;
-};
 ::-webkit-input-placeholder { color: $font-color; } 

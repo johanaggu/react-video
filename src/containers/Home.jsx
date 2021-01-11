@@ -1,12 +1,10 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import '../assets/styles/app.scss';
-import Header from '../components/Header';
 import Search from '../components/Search';
 import Categories from '../components/Categories';
 import Carousel from '../components/Carousel';
 import CarouselItem from '../components/CarouselItem';
-import Footer from '../components/Footer';
 
 //  State
 import useInitialState from '../hooks/useInitialState';
@@ -17,8 +15,7 @@ const Home = () => {
   const initialState = useInitialState(API);
 
   return (
-    <div className='app'>
-      <Header />
+    <>
       <Search />
       {initialState.mylist?.length > 0 && (
         <Categories sectionTitle='Reacomendaciones'>
@@ -39,8 +36,7 @@ const Home = () => {
           {initialState.trends?.map((item) => <CarouselItem key={item.id} {...item} />)}
         </Carousel>
       </Categories>
-      <Footer />
-    </div>
+    </>
   );
 };
 
