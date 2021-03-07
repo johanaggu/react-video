@@ -11,14 +11,19 @@ import '../assets/styles/app.scss';
 // import useInitialState from '../hooks/useInitialState';
 
 const Home = ({ mylist, trends, originals }) => {
-
   return (
     <>
       <Search />
       {mylist?.length > 0 && (
         <Categories sectionTitle='My list'>
           <Carousel>
-            {mylist?.map((item) => <CarouselItem key={item.id} {...item} />)}
+            {mylist?.map((item) => (
+              <CarouselItem
+                key={item.id}
+                {...item}
+                isList
+              />
+            ))}
           </Carousel>
         </Categories>
       )}
