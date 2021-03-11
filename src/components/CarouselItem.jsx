@@ -1,7 +1,11 @@
 import React from 'react';
-import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+
+// "connect" connect to redux 
+import { connect } from 'react-redux'; 
 import { setFavorite, deleteFavorite } from '../actions';
+
+// Assets
 import playIcon from '../assets/static/play-icon.png';
 import plusIcon from '../assets/static/plus-icon.png';
 import removeIcon from '../assets/static/remove-icon.png';
@@ -9,18 +13,21 @@ import '../assets/styles/components/CarouselItem.scss';
 
 const CarouselItem = (props) => {
   const { id, title, year, contentRating, duration, cover, isList } = props;
+  
   const handleSetFavorite = () => {
-    props.setFavorite({
+    const { setFavorite } = props
+    setFavorite({
       id, title, year, contentRating, duration, cover,
     });
   };
-  console.log('isList', isList);
-  const handleDeleteFavorite = (itemId) => {
-    props.deleteFavorite(itemId);
+
+  const handleDeleteFavorite = (id) => {
+    const { deleteFavorite } = props
+    deleteFavorite(id);
   };
   return (
     <div className='carousel-item'>
-      <img className='carousel-item__img' src={cover} alt='' />
+      <img className='carousel-item__img' src={cover} alt={title} />
       <div className='carousel-item__details'>
         <div>
           <img
@@ -28,21 +35,24 @@ const CarouselItem = (props) => {
             src={playIcon}
             alt='Play Icon'
           />
-          {isList ? (
+          {isList && (
             <img
               className='carousel-item__details--img'
               src={removeIcon}
               alt='Remove Icon'
               onClick={() => handleDeleteFavorite(id)}
             />
-          ) : (
-            <img
-              className='carousel-item__details--img'
-              src={plusIcon}
-              alt='Plus Icon'
-              onClick={handleSetFavorite}
-            />
           )}
+          {
+            !isList && (
+              <img
+                className='carousel-item__details--img'
+                src={plusIcon}
+                alt='Plus Icon'
+                onClick={handleSetFavorite}
+              />
+            )
+          }
 
         </div>
         <p className='carousel-item__details--title'>{title}</p>
@@ -65,4 +75,7 @@ const mapDipachToProps = {
   setFavorite,
   deleteFavorite,
 };
+
+//[DOCUMENTATION] connect(mapStateToProps?, mapDispatchToProps?, mergeProps?, options?)(<Component />)
+//[COURSE] connect(props, actions)(<Component />)
 export default connect(null, mapDipachToProps)(CarouselItem);

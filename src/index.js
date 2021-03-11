@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+
+// Get "Provider" and "createStore" 
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
+// Get Reducer by src/reducers
 import reducer from './reducers';
+
 import App from './routes/App';
 
 const initialState = {
   'user': {},
   'playing': {},
-  'mylist': [],
+  'myList': [],
   'trends': [
     {
       'id': 120,
@@ -234,7 +238,7 @@ const initialState = {
       'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
     },
     {
-      'id': 127,
+      'id': 137,
       'slug': 'tvshow-7',
       'title': 'The InBetween',
       'type': 'Drama',
