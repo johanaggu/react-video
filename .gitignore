@@ -74,3 +74,6 @@ yarn-error.log
 
 # Build
 dist/
+
+#mac 
+.DS_Store
