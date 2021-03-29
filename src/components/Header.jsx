@@ -29,4 +29,4 @@ const Header = ({user}) => (
 const mapStateToProps = state => ({
   user: state.user
 })
-export default connect(mapToProps, null)(Header);
+export default connect(mapStateToProps, null)(Header);

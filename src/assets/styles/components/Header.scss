@@ -30,6 +30,7 @@
   
   .header__menu:hover ul, ul:hover {
       display: block;
+      transform: translateX(-35px);
   }
   
   .header__menu li {
