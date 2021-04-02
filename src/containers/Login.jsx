@@ -81,5 +81,5 @@ const Login = props => {
 const mapDispatchToProps = {
   loginRequest
 }
-// export default Login;
+
 export default connect(null, mapDispatchToProps)(Login);

@@ -26,7 +26,7 @@ const initialState = {
       'duration': 164,
       'cover': 'http://dummyimage.com/800x600.png/99118E/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 121,
@@ -39,7 +39,7 @@ const initialState = {
       'duration': 137,
       'cover': 'http://dummyimage.com/800x600.png/302140/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 122,
@@ -52,7 +52,7 @@ const initialState = {
       'duration': 163,
       'cover': 'http://dummyimage.com/800x600.png/5472FF/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 124,
@@ -65,7 +65,7 @@ const initialState = {
       'duration': 194,
       'cover': 'http://dummyimage.com/800x600.png/B36F20/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 126,
@@ -78,7 +78,7 @@ const initialState = {
       'duration': 124,
       'cover': 'http://dummyimage.com/800x600.png/CCC539/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 127,
@@ -91,7 +91,7 @@ const initialState = {
       'duration': 179,
       'cover': 'http://dummyimage.com/800x600.png/FF7A90/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     }, {
       'id': 120,
       'slug': 'tvshow-2',
@@ -103,7 +103,7 @@ const initialState = {
       'duration': 164,
       'cover': 'http://dummyimage.com/800x600.png/99118E/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 121,
@@ -116,7 +116,7 @@ const initialState = {
       'duration': 137,
       'cover': 'http://dummyimage.com/800x600.png/302140/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 122,
@@ -129,7 +129,7 @@ const initialState = {
       'duration': 163,
       'cover': 'http://dummyimage.com/800x600.png/5472FF/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 124,
@@ -142,7 +142,7 @@ const initialState = {
       'duration': 194,
       'cover': 'http://dummyimage.com/800x600.png/B36F20/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 126,
@@ -155,7 +155,7 @@ const initialState = {
       'duration': 124,
       'cover': 'http://dummyimage.com/800x600.png/CCC539/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 127,
@@ -168,7 +168,7 @@ const initialState = {
       'duration': 179,
       'cover': 'http://dummyimage.com/800x600.png/FF7A90/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
   ],
   'originals': [
@@ -183,7 +183,7 @@ const initialState = {
       'duration': 164,
       'cover': 'http://dummyimage.com/800x600.png/99118E/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 121,
@@ -196,7 +196,7 @@ const initialState = {
       'duration': 137,
       'cover': 'http://dummyimage.com/800x600.png/302140/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 122,
@@ -209,7 +209,7 @@ const initialState = {
       'duration': 163,
       'cover': 'http://dummyimage.com/800x600.png/5472FF/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 124,
@@ -222,7 +222,7 @@ const initialState = {
       'duration': 194,
       'cover': 'http://dummyimage.com/800x600.png/B36F20/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 126,
@@ -235,7 +235,7 @@ const initialState = {
       'duration': 124,
       'cover': 'http://dummyimage.com/800x600.png/CCC539/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 137,
@@ -248,7 +248,7 @@ const initialState = {
       'duration': 179,
       'cover': 'http://dummyimage.com/800x600.png/FF7A90/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     }, {
       'id': 120,
       'slug': 'tvshow-2',
@@ -260,7 +260,7 @@ const initialState = {
       'duration': 164,
       'cover': 'http://dummyimage.com/800x600.png/99118E/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 121,
@@ -273,7 +273,7 @@ const initialState = {
       'duration': 137,
       'cover': 'http://dummyimage.com/800x600.png/302140/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 122,
@@ -286,7 +286,7 @@ const initialState = {
       'duration': 163,
       'cover': 'http://dummyimage.com/800x600.png/5472FF/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 124,
@@ -299,7 +299,7 @@ const initialState = {
       'duration': 194,
       'cover': 'http://dummyimage.com/800x600.png/B36F20/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 126,
@@ -312,7 +312,7 @@ const initialState = {
       'duration': 124,
       'cover': 'http://dummyimage.com/800x600.png/CCC539/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
     {
       'id': 127,
@@ -325,7 +325,7 @@ const initialState = {
       'duration': 179,
       'cover': 'http://dummyimage.com/800x600.png/FF7A90/ffffff',
       'description': 'Vestibulum ac est lacinia nisi venenatis tristique',
-      'source': 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      'source': 'https://res.cloudinary.com/dufryyw5r/video/upload/v1611726494/db_movies/video/Percy_Jackson_The_Lightning_Thief_sg04mk.mp4',
     },
   ],
 };

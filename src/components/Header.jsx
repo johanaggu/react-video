@@ -9,7 +9,6 @@ import userIcon from '../assets/static/user-icon.png';
 
 const Header = ({user}) => (
   <header className='header'>
-    {console.log(user)}
     <Link to='/'>
       <img className='header__img' src={logo} alt='logo header' />
     </Link>
