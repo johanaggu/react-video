@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux'
 import '../assets/styles/components/Player.scss';
 
+// This line connect with redex
 let connectComponent;
 
 const MediaPlayer = props => {
