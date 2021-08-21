@@ -1,13 +1,15 @@
 import React from 'react';
 import { connect } from 'react-redux'
-import '../assets/styles/components/Player.scss ';
+import '../assets/styles/components/Player.scss';
+
+let connectComponent;
 
 const MediaPlayer = props => {
     const { id } = props.match.params;
     return(
         <div className='Player' >
             <video controls autoPlay>
-                <source src='' type='video/mp4' />
+                <source src='https://res.cloudinary.com/dufryyw5r/video/upload/v1599364750/db_movies/video/Fight_Club_-_Theatrical_Trailer_Remastered_in_HD_kiykxq.mp4' type='video/mp4' />
             </video>
             <div className='Player-back' >
                 <button type='button' onClick={() => props.history.goBack() }>
@@ -24,4 +26,5 @@ const mapStateToProps = state => {
     }
 }
 
-export default connect(mapStateToProps,null)(MediaPlayer)
+connectComponent = connect(mapStateToProps,null);
+export default connectComponent(MediaPlayer)
